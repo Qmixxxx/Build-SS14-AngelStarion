@@ -1,0 +1,72 @@
+# For mantles (ветеранская мантия для командира)
+- type: loadoutEffectGroup
+  id: MasterCCT
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: CommanderCriticalThreats
+      time: 72000 #20 hrs
+
+# Jumpsuit
+- type: loadout
+  id: CommanderCCTJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHoSAlt # тут можно сделать отдельный под командира
+  groupBy: "jumpsuit"
+
+- type: loadout
+  id: CommanderCCTFormal
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHosFormal
+  groupBy: "jumpsuit"
+
+# Head
+- type: loadout
+  id: CommanderCCTCap
+  equipment:
+    head: ClothingHeadHatCapCentcom
+
+- type: loadout
+  id: CommanderCCTBeret
+  equipment:
+    head: ClothingHeadHatBeretCaptain
+
+# Neck
+- type: loadout
+  id: CommanderCCTCloak
+  equipment:
+    neck: ClothingNeckCloakCap
+
+- type: loadout
+  id: CommanderCCTMantle
+  equipment:
+    neck: ClothingNeckMantleCap
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCCT
+
+# OuterClothing
+- type: loadout
+  id: CommanderCCTCoat
+  equipment:
+    outerClothing: ClothingOuterCoatHoSTrench
+
+- type: loadout
+  id: CommanderCCTWinterCoat
+  equipment:
+    outerClothing: ClothingOuterWinterCap
+
+# StartingGear (то что выдаётся сразу)
+- type: startingGear
+  id: CommanderCriticalThreatsGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    id: HoSPDA # можно заменить на CommanderPDA если сделаешь
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    pocket1: WeaponPistolN1984
+  storage:
+    back:
+    - Flash
+    - MagazinePistol
