@@ -15,7 +15,7 @@
   - AllAccess
   access:
   - CentralCommand
- special:
+  special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
