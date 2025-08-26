@@ -1,0 +1,44 @@
+- type: job
+  id: CommanderCriticalThreats
+  name: job-name-cct
+  description: job-description-sct
+  playTimeTracker: JobSquadCriticalThreats
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 18000 #5 hrs
+  startingGear: CommanderCriticalThreatsGear
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+ special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: CommanderCriticalThreatsGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    id: HoSPDA
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetCentCom
+    pocket1: WeaponPistolN1984
+  storage:
+    back:
+    - Flash
+    - MagazinePistol
+
+- type: chameleonOutfit
+  id: HeadOfSecurityChameleonOutfit
+  job: HeadOfSecurity
+  hasMindShield: true
+  equipment:
+    mask: ClothingMaskGasSecurity
+    neck: ClothingNeckCloakHos
