@@ -3,24 +3,25 @@
   name: job-name-cct
   description: job-description-sct
   playTimeTracker: JobSquadCriticalThreats
+  department: Command
   requirements:
     - !type:DepartmentTimeRequirement
       department: Command
       time: 18000 #5 hrs
   startingGear: CommanderCriticalThreatsGear
-  icon: "JobIconNanotrasen"
+  icon: JobIconNanotrasen
   supervisors: job-supervisors-centcom
   canBeAntag: false
   accessGroups:
-  - AllAccess
+    - AllAccess
   access:
-  - CentralCommand
+    - CentralCommand
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+    - !type:AddImplantSpecial
+        implants: [ MindShieldImplant ]
+    - !type:AddComponentSpecial
+        components:
+          - type: CommandStaff
 
 - type: startingGear
   id: CommanderCriticalThreatsGear
@@ -32,11 +33,5 @@
     pocket1: WeaponPistolN1984
   storage:
     back:
-    - Flash
-    - MagazinePistol
-
-- type: startingGear
-  id: HeadOfSecurityChameleonOutfit
-  equipment:
-    mask: ClothingMaskGasSecurity
-    neck: ClothingNeckCloakHos
+      - Flash
+      - MagazinePistol
