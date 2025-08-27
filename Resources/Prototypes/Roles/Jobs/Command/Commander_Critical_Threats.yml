@@ -35,10 +35,8 @@
     - Flash
     - MagazinePistol
 
-- type: chameleonOutfit
+- type: startingGear
   id: HeadOfSecurityChameleonOutfit
-  job: HeadOfSecurity
-  hasMindShield: true
   equipment:
     mask: ClothingMaskGasSecurity
     neck: ClothingNeckCloakHos
