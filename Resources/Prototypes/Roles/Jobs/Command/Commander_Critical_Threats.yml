@@ -2,6 +2,7 @@
   id: CommanderCriticalThreats
   name: job-name-cct
   description: job-description-sct
+  playTimeTracker: JobSquadCriticalThreats
   department: Command
   requirements:
     - !type:DepartmentTimeRequirement
