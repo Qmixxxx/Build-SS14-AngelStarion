@@ -1,3 +1,4 @@
+# Job names (отображаемые названия)
 job-name-warden = смотритель
 job-name-security = офицер СБ
 job-name-cadet = кадет СБ
@@ -51,9 +52,8 @@ job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
 job-name-visitor = посетитель
 job-name-cluwne = клувень
-# unused jobs
-# these are required for the agent ID job icon tooltips
-# I am keeping them for roleplaying opportunities
+
+# unused jobs (чтобы агент ID и прочие тултипы не падали)
 job-name-geneticist = генетик
 job-name-no-id = нет ID
 job-name-prisoner = заключённый
@@ -62,97 +62,19 @@ job-name-syndicate = синдикат
 job-name-unknown = неизвестно
 job-name-virologist = вирусолог
 job-name-zombie = зомби
+
 # Job titles
 job-title-visitor = посетитель
 job-title-cluwne = клувень
 job-title-universal = универсальная
-# Role timers - Make these alphabetical or I cut you
+
+# Role timers (таймеры, для трекеров)
 JobAtmosphericTechnician = атмосферный техник
 JobBartender = бармен
 JobBorg = киборг
 JobBotanist = ботаник
 JobBoxer = боксёр
-JobCommanderCriticalThreats = командир критической угрозы
-JobCaptain = капитан
-JobCargoTechnician = грузчик
-JobCentralCommandOfficial = представитель Центком
-JobChaplain = священник
-JobChef = шеф-повар
-JobChemist = химик
-JobChiefEngineer = старший инженер
-JobChiefMedicalOfficer = главный врач
-JobClown = клоун
-JobDetective = детектив
-JobBrigmedic = бригмедик
-JobERTChaplain = священник ОБР
-JobERTEngineer = инженер ОБР
-JobERTJanitor = уборщик ОБР
-JobERTLeader = лидер ОБР
-JobERTMedical = медик ОБР
-JobERTSecurity = офицер безопасности ОБР
-JobHeadOfPersonnel = глава персонала
-JobHeadOfSecurity = глава службы безопасности
-JobJanitor = уборщик
-JobLawyer = адвокат
-JobLibrarian = библиотекарь
-JobMedicalDoctor = врач
-JobMedicalIntern = интерн
-JobMime = мим
-JobMusician = музыкант
-JobParamedic = парамедик
-JobPassenger = пассажир
-JobPsychologist = психолог
-JobQuartermaster = квартирмейстер
-JobReporter = репортёр
-JobResearchAssistant = научный ассистент
-JobResearchDirector = научный руководитель
-JobSalvageSpecialist = утилизатор
-JobScientist = учёный
-JobSecurityCadet = кадет СБ
-JobSecurityOfficer = офицер СБ
-JobServiceWorker = сервисный работник
-JobStationAi = станционный ИИ
-JobStationEngineer = инженер
-JobTechnicalAssistant = технический ассистент
-JobVisitor = посетитель
-JobWarden = смотритель
-JobZookeeper = зоотехник
-job-name-salvagespec = утилизатор
-job-name-station-ai = станционный ИИ
-job-name-qm = квартирмейстер
-job-name-cargotech = грузчик
-job-name-chef = шеф-повар
-job-name-clown = клоун
-job-name-ertleader = лидер ОБР
-job-name-ertchaplain = священник ОБР
-job-name-ertengineer = инженер ОБР
-job-name-ertsecurity = офицер безопасности ОБР
-job-name-ertmedic = медик ОБР
-job-name-ertjanitor = уборщик ОБР
-job-name-boxer = боксёр
-job-name-zookeeper = зоотехник
-job-name-visitor = посетитель
-# unused jobs
-# these are required for the agent ID job icon tooltips
-# I am keeping them for roleplaying opportunities
-job-name-geneticist = генетик
-job-name-no-id = нет ID
-job-name-prisoner = заключённый
-job-name-roboticist = робототехник
-job-name-syndicate = синдикат
-job-name-unknown = неизвестно
-job-name-virologist = вирусолог
-job-name-zombie = зомби
-# Job titles
-job-title-visitor = посетитель
-job-title-cluwne = клувень
-job-title-universal = универсальная
-# Role timers - Make these alphabetical or I cut you
-JobAtmosphericTechnician = атмосферный техник
-JobBartender = бармен
-JobBorg = киборг
-JobBotanist = ботаник
-JobBoxer = боксёр
+JobSquadCriticalThreats = отряд критической угрозы
 JobCaptain = капитан
 JobCargoTechnician = грузчик
 JobCentralCommandOfficial = представитель Центком
