@@ -2,14 +2,13 @@
   id: CommanderCriticalThreats
   name: job-name-cct
   description: job-description-sct
-  playTimeTracker: JobSquadCriticalThreats
   department: Command
   requirements:
     - !type:DepartmentTimeRequirement
       department: Command
-      time: 18000 #5 hrs
+      time: 18000 # 5 hrs
   startingGear: CommanderCriticalThreatsGear
-  icon: JobIconNanotrasen
+  icon: JobIconCommand # заменил на стандартный икон-пак
   supervisors: job-supervisors-centcom
   canBeAntag: false
   accessGroups:
