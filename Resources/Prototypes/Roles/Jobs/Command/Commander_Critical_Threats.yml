@@ -8,7 +8,7 @@
       department: Command
       time: 18000 # 5 hrs
   startingGear: CommanderCriticalThreatsGear
-  icon: JobIconCommand # заменил на стандартный икон-пак
+  icon: JobIconNanotrasenCCT
   supervisors: job-supervisors-centcom
   canBeAntag: false
   accessGroups:
