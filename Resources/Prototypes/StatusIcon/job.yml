@@ -461,7 +461,6 @@
     state: Admin
   allowSelection: false
 
-# 🔹 твоя новая иконка
 - type: jobIcon
   parent: JobIcon
   id: JobIconNanotrasenCCT
