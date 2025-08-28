@@ -27,7 +27,7 @@
   id: CommanderCriticalThreatsGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
-    id: HoSPDA
+    id: CommanderPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetCentCom
     pocket1: WeaponPistolN1984
