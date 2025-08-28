@@ -1,4 +1,4 @@
-# For mantles (ветеранская мантия для командира)
+# Loadout effect group (ветеранская мантия для командира)
 - type: loadoutEffectGroup
   id: MasterCCT
   effects:
@@ -8,20 +8,20 @@
       role: CommanderCriticalThreats
       time: 72000 #20 hrs
 
-# Jumpsuit
+# Jumpsuits
 - type: loadout
   id: CommanderCCTJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoSAlt # тут можно сделать отдельный под командира
+    jumpsuit: ClothingUniformJumpsuitCommanderCCT
   groupBy: "jumpsuit"
 
 - type: loadout
   id: CommanderCCTFormal
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHosFormal
+    jumpsuit: ClothingUniformJumpsuitCommanderCCTFormal
   groupBy: "jumpsuit"
 
-# Head
+# Headgear
 - type: loadout
   id: CommanderCCTCap
   equipment:
@@ -32,7 +32,7 @@
   equipment:
     head: ClothingHeadHatBeretCaptain
 
-# Neck
+# Neck accessories
 - type: loadout
   id: CommanderCCTCloak
   equipment:
@@ -46,23 +46,23 @@
   - !type:GroupLoadoutEffect
     proto: MasterCCT
 
-# OuterClothing
+# Outer clothing
 - type: loadout
   id: CommanderCCTCoat
   equipment:
-    outerClothing: ClothingOuterCoatHoSTrench
+    outerClothing: ClothingOuterCoatCommanderCCT
 
 - type: loadout
   id: CommanderCCTWinterCoat
   equipment:
     outerClothing: ClothingOuterWinterCap
 
-# StartingGear (то что выдаётся сразу)
+# StartingGear (выдаётся сразу)
 - type: startingGear
   id: CommanderCriticalThreatsGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
-    id: HoSPDA # можно заменить на CommanderPDA если сделаешь
+    id: CommanderPDA          # <-- заменил HoSPDA на CommanderPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetCentCom
     pocket1: WeaponPistolN1984
